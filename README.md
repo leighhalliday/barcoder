@@ -1,24 +1,5 @@
-# README
+# Barcoder
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Very simple Rails app to generate dynamic barcodes in Code128 format.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Visiting `/barcodes/123456.pdf` will generate a barcode for the number `123456`.
